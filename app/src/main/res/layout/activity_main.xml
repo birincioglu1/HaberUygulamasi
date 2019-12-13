@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/indir"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RadioButton
+            android:id="@+id/spor"
+            android:layout_width="wrap_content"
+                android:fontFamily="@font/bold"
+            android:layout_height="wrap_content"
+            android:text="SPOR HABERLERİ"
+
+            />
+
+            <RadioButton
+                android:id="@+id/bilim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="BİLİM HABERLERİ" />
+
+            <RadioButton
+                android:id="@+id/technology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="TEKNOLOJİ HABERLERİ" />
+
+            <RadioButton
+                android:id="@+id/business"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/bold"
+                android:layout_height="wrap_content"
+                android:text="İŞ-YAŞAM HABERLERİ" />
+
+            <RadioButton
+                android:id="@+id/health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="SAĞLIK HABELERİ" />
+
+
+        </RadioGroup>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
