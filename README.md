@@ -17,4 +17,4 @@ Secilen haber başlığına göre haberlerin detaylari incelenebilmektedir.
 
 ## Haberlerin içeriklerini görüntüleme
 
-![error](https://github.com/birincioglu1/HaberUygulamasi/blob/master/app/src/main/res/drawable/haberbaslik.PNG)<br/>
+![error](https://github.com/birincioglu1/HaberUygulamasi/blob/master/app/src/main/res/drawable/habericerik.PNG)<br/>
